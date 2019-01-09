@@ -1,6 +1,10 @@
 import Big from 'big.js';
 import { isNumber, isString } from './utils';
 
+// Increase exponential notation threshold
+Big.PE = 21;
+Big.NE = -21;
+
 const conversion = '100000000';
 
 /**
