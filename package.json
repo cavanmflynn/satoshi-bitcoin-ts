@@ -1,6 +1,6 @@
 {
   "name": "satoshi-bitcoin-ts",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "A tiny typescript library to convert between Bitcoin & Satoshis with precision.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,6 @@
   "license": "MIT",
   "devDependencies": {
     "@ts-tools/node": "^0.8.3",
-    "@types/big.js": "^4.0.5",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
@@ -27,6 +26,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "@types/big.js": "^4.0.5",
     "big.js": "^5.2.2"
   },
   "directories": {
