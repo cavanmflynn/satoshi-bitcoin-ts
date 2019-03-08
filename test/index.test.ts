@@ -21,7 +21,9 @@ describe('toBitcoin', () => {
 
   it('handles TypeError input', () => {
     expect(toBitcoin.bind(this, true)).to.throw('toBitcoin must be called on a number or string');
-    expect(toBitcoin.bind(this, 1.1)).to.throw('toBitcoin must be called on a whole number or string format whole number');
+    expect(toBitcoin.bind(this, 1.1)).to.throw(
+      'toBitcoin must be called on a whole number or string format whole number'
+    );
   });
 });
 
